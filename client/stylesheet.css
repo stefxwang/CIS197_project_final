@@ -1,0 +1,49 @@
+body {
+    background-image: url("marble.jpg");
+}
+
+#text {
+	color: #000080;
+	text-align: center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#input-box {
+	text-align: center;
+}
+
+#submit-button {
+	text-align: center;
+}
+
+.board {
+	align-self: center;
+	width: 350px;
+	height: 350px;
+	margin: auto;
+}
+
+.element {
+	display: inline-block;
+	border: 1px solid #000080;
+	width: 100px;
+	height: 100px;
+	margin: 1.7%;
+	background: #ccc;
+	background-position: center center;
+	background-size: cover;
+}
+
+.sample {
+	width: 100px;
+	height: 100px;
+	margin: 1.7%;
+	position: fixed;
+	display: none;
+}
+
+.image {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="stylesheet.css"/>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 id="text">Tic Tac Toe</h1>
+            <h3 class="warning-message" id="text"> </h3>
+            <h4 id="text">Join room here:</h4>
+            <div id="input-box">
+                <input id="room-input"></input>
+            </div>
+            <div id="submit-button">
+                <button class="enter-room"><span>Enter room</span></button>
+            </div>
+            <h4 class="room" id="text"></h4>
+            <h4 class="symbol" id="text"></h4>
+            <h4 class="turn" id="text"></h4>
+            <div class="board">
+                <div class="element" id="i0"><span/></div>
+                <div class="element" id="i1"><span/></div>
+                <div class="element" id="i2"><span/></div>
+                <div class="element" id="i3"><span/></div>
+                <div class="element" id="i4"><span/></div>
+                <div class="element" id="i5"><span/></div>
+                <div class="element" id="i6"><span/></div>
+                <div class="element" id="i7"><span/></div>
+                <div class="element" id="i8"><span/></div>
+            </div>
+        </div>
+        <div class="sample-o">
+            <img class="sample" id="black-o" src="black-o.png"></img>
+        </div>
+        <div class="sample-x">
+            <img class="sample" id="black-x" src="black-x.png"></img>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/client.js"></script>
+    </body>
+</html>
